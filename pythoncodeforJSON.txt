@@ -1,0 +1,15 @@
+import json
+
+shopping_list = {
+'name' : input('what is your name?'),
+'Age' : input('what is your age?'),
+'address' : input('what is your address?'),
+'item' : input('what do you want to buy?'),
+'card' : ('what is your card number?')
+}
+
+with open("shoppinglist.json",'w') as file:
+  json.dump(shopping_list, file, indent = 2)
+
+print("order placed")
+
