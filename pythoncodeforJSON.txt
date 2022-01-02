@@ -8,7 +8,7 @@ shopping_list = {
 'card' : ('what is your card number?')
 }
 
-with open("shoppinglist.json",'w') as file:
+with open("infolist.json",'w') as file:
   json.dump(shopping_list, file, indent = 2)
 
 print("order placed")
