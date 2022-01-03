@@ -13,4 +13,4 @@ with open("shoppinglist.json",'w') as file:
 
 print(f"{len(shopping_list)} item(s) have been saved in the Shopping List File")
 
-// use trinket.com python 3 mode to execute program
+
